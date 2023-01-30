@@ -1,0 +1,110 @@
+<DOCTYPE! html>
+  <html lang="en">
+  <head>
+    <script src="https://kit.fontawesome.com/6c80abf220.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content=IE=edge>
+    <meta name="viewport" content="width-device-width">
+    <title>NS Product Landing Page</title>
+  </head>
+    <body>
+      <header id="header">
+        <nav id="nav-bar">
+          <div class="logo-container">
+            <img src="images/logo.png" alt="logo" id= "header-img"/>
+            <span class="the-product">Nobushi</span> 
+          </div>   
+            <ul class="nav-links">
+              <li><a href="#features" class="nav-link">Features</a></li>
+              <li><a href="#audio" class="nav-link">Food Delivery</a></li>
+              <li><a href="#subscriptions" class="nav-link">Pricing</a></li>
+            </ul> 
+        </nav>
+      </header>
+    
+      <section id="email-section">
+        <h2>For Home Made Recipes Sign Up To Our Newsletter</h2>
+        <form action="https://www.freecodecamp.com/email-submit" id="form">
+          <input id="email" required placeholder="Enter your email address" type="email" name="email"/>
+          <input id="submit" type="submit" value="Get Started"/>
+        </form>
+
+      </section>
+
+      <section id="features">
+        <div class="feature"> 
+          <i class="fa-solid fa-face-grin-wide icon"></i>
+          <div>
+            <h2>Tasty Food</h2>
+            <p>We deliver tasty recepies along with ingredients</p>
+          </div>
+        </div>
+        
+        <div class="feature">
+          <i class="fa-regular fa-heart icon"></i>
+          <div>
+            <h2>Healthy Ingredients</h2>
+            <p>We provide healthy and nutrition rich ingredients</p>
+          </div>
+        </div>
+  
+        <div class="feature">
+          <i class="fa-solid fa-truck-fast icon3"></i>
+          <div>
+            <h2>Fast Service</h2>
+            <p>We provide fast and efficient service</p>
+          </div>
+        </div>
+       </section>
+       <section id="audio">
+        <iframe id="video" height="350" src="https://www.youtube.com/embed/a-nHLrBCdL4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+       </section>
+
+       <section id="subscriptions">
+        <div class="product-cards">
+          <div class="card">
+            <div class="inner-card">
+              <h1 class="header">4 meals/per week</h1>
+              <p class="content">Excellent meal plan for couples which will be 8 meals per week</p>
+              <div class="flex">
+                <p class="main-price">$80</p>
+                <p class="old-price">$120</p>
+              </div>
+              <button class="add">Select</button>
+            </div>
+          </div>
+          <div class="card">
+            <div class="inner-card">
+              <h1 class="header">6 meals/per week</h1>
+              <p class="content">Excellent meal plan for couples which will be 8 meals per week</p>
+              <div class="flex">
+                <p class="main-price">$100</p>
+                <p class="old-price">$140</p>
+              </div>
+              <button class="add">Select</button>
+            </div>
+          </div>
+          <div class="card">
+            <div class="inner-card">
+              <h1 class="header">8 meals/per week</h1>
+              <p class="content">Excellent meal plan for couples which will be 8 meals per week</p>
+              <div class="flex">
+                <p class="main-price">$120</p>
+                <p class="old-price">$160</p>
+              </div>
+              <button class="add">Select</button>
+            </div>
+          </div>
+      
+        </div>
+       </section>
+    </body>
+
+    </html>
